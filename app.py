@@ -1,46 +1,54 @@
 import streamlit as st
 import torch
-import clip
-import pickle
-import numpy as np
-from sklearn.metrics.pairwise import cosine_similarity
 from PIL import Image
+import clip
+
+from utils.utils_embedding import load_embeddings, get_text_embedding
+from utils.utils_similarity import compute_similarity
 
 device = "cuda" if torch.cuda.is_available() else "cpu"
 model, preprocess = clip.load("ViT-B/32", device=device)
 
-def load_embeddings(file_path):
-    with open(file_path, 'rb') as f:
-        embeddings = pickle.load(f)
-    return embeddings
-
-embeddings = load_embeddings('D:/C_Drive/Desktop/CS/clip-image-test/image_embeddings.pkl')
-
-def get_text_embedding(text):
-    text_inputs = clip.tokenize([text]).to(device)
-    with torch.no_grad():
-        text_features = model.encode_text(text_inputs)
-    text_features /= text_features.norm(dim=-1, keepdim=True)
-    return text_features.cpu().numpy()
-
-def compute_similarity(query_embedding, image_embeddings):
-    similarities = {}
-    for image_name, image_embedding in image_embeddings.items():
-        similarity = cosine_similarity(query_embedding, image_embedding)
-        similarities[image_name] = similarity[0][0]
-    return similarities
-
 st.title("CLIP Image Search")
 
 query = st.text_input("Enter your search query:")
+embedding_path = st.text_input("Enter the FULL path of the embeddings file:")
 
-if query:
-    query_embedding = get_text_embedding(query)
-    similarities = compute_similarity(query_embedding, embeddings)
-    sorted_similarities = sorted(similarities.items(), key=lambda x: x[1], reverse=True)
-    
+if 'embeddings' not in st.session_state:
+    st.session_state.embeddings = None
+if 'sorted_similarities' not in st.session_state:
+    st.session_state.sorted_similarities = None
+
+def perform_search():
+    embeddings = load_embeddings(embedding_path)
+    if query and embeddings:
+        query_embedding = get_text_embedding(query)
+        similarities = compute_similarity(query_embedding, embeddings)
+        sorted_similarities = sorted(similarities.items(), key=lambda x: x[1], reverse=True)
+        st.session_state.embeddings = embeddings
+        st.session_state.sorted_similarities = sorted_similarities
+
+if st.button("Search"):
+    perform_search()
+
+if st.session_state.sorted_similarities:
     st.write("Top matching images:")
-    for image_name, similarity in sorted_similarities[:5]:  # Display top 5 matches
-        image = Image.open(f"test/{image_name}")
-        st.image(image, caption=f"Image: {image_name}, Similarity: {similarity:.4f}")
+    
+    col1, col2 = st.columns([3, 1])
+    
+    with col1:
+        st.write("Image Grid")
+        cols = st.columns(4)
+        for idx, (image_name, similarity) in enumerate(st.session_state.sorted_similarities[:20]):
+            col = cols[idx % 4]
+            image = Image.open(f"test/{image_name}")
+            col.image(image, caption=f"{image_name}\nSimilarity: {similarity:.4f}", use_column_width=True)
+            if col.button(f"Select {image_name}", key=f"select_{image_name}"):
+                st.session_state.selected_image_name = image_name
 
+if 'selected_image_name' in st.session_state:
+    selected_image_name = st.session_state.selected_image_name
+    with col2:
+        st.write("Selected Image")
+        image = Image.open(f"test/{selected_image_name}")
+        st.image(image, caption=selected_image_name, use_column_width=True)
