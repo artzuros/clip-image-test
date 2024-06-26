@@ -1,10 +1,22 @@
 import clip
 import pickle, os
+import streamlit as st
 import torch
 from PIL import Image
 
 device = "cuda" if torch.cuda.is_available() else "cpu"
 model, preprocess = clip.load("ViT-B/32", device=device)
+
+def load_or_generate_embeddings(image_folder, embeddings_path):
+    if os.path.isdir(image_folder):
+        if os.path.exists(embeddings_path):
+            with open(embeddings_path, 'rb') as f:
+                st.session_state.embeddings = pickle.load(f)
+            st.success("Embeddings loaded successfully.")
+        else:
+            st.error("Embeddings not found. Please generate them first.")
+    else:
+        st.error("Invalid folder path.")
 
 def load_embeddings(file_path):
     """
