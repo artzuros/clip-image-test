@@ -15,3 +15,4 @@ def compute_similarity(query_embedding, image_embeddings):
         similarity = cosine_similarity(query_embedding, image_embedding)
         similarities[image_name] = similarity[0][0]
     return similarities
+
