@@ -1,12 +1,12 @@
 import streamlit as st
 import datetime, csv, os
 from utils.utils_embedding import load_embeddings, get_text_embedding, generate_clip_embeddings
-from utils.utils_similarity import compute_similarity
+from utils.utils_similarity import compute_similarity_torch
 
 def perform_search():
     if 'query' in st.session_state and st.session_state.query and st.session_state.embeddings:
         query_embedding = get_text_embedding(st.session_state.query)
-        similarities = compute_similarity(query_embedding, st.session_state.embeddings)
+        similarities = compute_similarity_torch(query_embedding, st.session_state.embeddings)
         sorted_similarities = sorted(similarities.items(), key=lambda x: x[1], reverse=True)
         st.session_state.sorted_similarities = sorted_similarities
         # print(sorted_similarities)

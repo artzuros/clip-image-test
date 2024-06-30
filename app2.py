@@ -5,7 +5,7 @@ import clip
 import pickle
 import os
 # import csv ,datetime
-from utils.utils_embedding import load_embeddings, generate_clip_embeddings#, get_text_embedding
+from utils.utils_embedding import load_embeddings, generate_clip_embeddings, update_embeddings
 # from utils.utils_similarity import compute_similarity
 from utils.utils import perform_search, select_image, deselect_image, select_all_images, deselect_all_images, export_to_csv
 
@@ -30,6 +30,10 @@ col_load, col_generate = st.columns(2)
 with col_load:
     if st.button("Load Embeddings"):
         load_embeddings(image_folder, embeddings_path)
+        
+with col_load:
+    if st.button("Update Embeddings"):
+        update_embeddings(image_folder, embeddings_path)
         
 with col_generate:
     if st.button("Generate Embeddings"):
@@ -89,8 +93,7 @@ if st.session_state.sorted_similarities:
                 select_image(image_name)
             elif deselect_pressed:
                 deselect_image(image_name)
-
-
+                
 if st.session_state.selected_images:
     st.write("Selected images to export:")
     for image_name in st.session_state.selected_images:
