@@ -1,7 +1,7 @@
 from sklearn.metrics.pairwise import cosine_similarity
 import numpy as np
 
-def compute_similarity_torch(query_embedding, image_embeddings):
+def compute_similarity(query_embedding, image_embeddings):
     """
     Returns the cosine similarity between the query embedding and the image embeddings.
     Args:
