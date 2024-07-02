@@ -4,9 +4,7 @@ from PIL import Image
 import clip
 import pickle
 import os
-# import csv ,datetime
 from utils.utils_embedding import load_embeddings, generate_clip_embeddings, update_embeddings
-# from utils.utils_similarity import compute_similarity
 from utils.utils import perform_search, select_image, deselect_image, select_all_images, deselect_all_images, export_to_csv
 
 device = "cuda" if torch.cuda.is_available() else "cpu"

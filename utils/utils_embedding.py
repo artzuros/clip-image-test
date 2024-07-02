@@ -12,6 +12,14 @@ model, preprocess = clip.load("ViT-B/32", device=device)
 
 
 def process_batch(image_paths):
+    """ Processes a batch of images and returns their embeddings.
+    
+    Args:
+        image_paths (list): A list of image paths.
+        
+    Returns:
+        dict: A dictionary containing the embeddings of the images.
+    """
     batch_embeddings = {}
     images = [preprocess(Image.open(image_path)).unsqueeze(0).to(device) for image_path in image_paths]
     images = torch.cat(images)
@@ -23,6 +31,15 @@ def process_batch(image_paths):
     return batch_embeddings
 
 def load_embeddings(image_folder, embeddings_path):
+    """Loads the embeddings from the given path.
+    
+    Args:
+        image_folder (string): The folder containing the images.
+        embeddings_path (string): The path to the embeddings file.
+        
+    Returns:
+        dict: A dictionary containing the embeddings.
+    """
     if os.path.isdir(image_folder):
         if os.path.exists(embeddings_path):
             with open(embeddings_path, 'rb') as f:
@@ -34,6 +51,14 @@ def load_embeddings(image_folder, embeddings_path):
         st.error("Invalid folder path.")
 
 def update_embeddings(image_folder, embeddings_path, batch_size=32, n_jobs=-1):
+    """Updates the embeddings with new images from the given folder.
+
+    Args:
+        image_folder (string): The folder containing the images.
+        embeddings_path (string): The path to the embeddings file.
+        batch_size (int, optional): The size of the batch to process. Defaults to 32.
+        n_jobs (int, optional): The number of jobs to run in parallel. -1 means using all processors. Defaults to -1.        
+    """
     if os.path.isdir(image_folder):
         if os.path.exists(embeddings_path):
             with open(embeddings_path, 'rb') as f:
