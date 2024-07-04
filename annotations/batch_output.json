@@ -1,0 +1,3194 @@
+{
+    "annotations": [
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\01f6f12885db4c939db799040225fb3d.jpg",
+            "bbox": [
+                [
+                    136,
+                    181,
+                    341,
+                    303
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.3567275404930115
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\099c26eb59ad43a2831828ea4fa77ad9.jpg",
+            "bbox": [
+                [
+                    183,
+                    223,
+                    759,
+                    616
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.7340907454490662
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\09df1d923a1d4248b0226b3fe3f8c92c.jpg",
+            "bbox": [
+                [
+                    29,
+                    196,
+                    461,
+                    708
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.8698137998580933
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\0a1ca019b257473d902de7c2d1c10ccf.jpg",
+            "bbox": [
+                [
+                    135,
+                    198,
+                    770,
+                    431
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.7296116948127747
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\0c1442d7b0644e49bf383685f31be964.jpg",
+            "bbox": [
+                [
+                    248,
+                    94,
+                    913,
+                    673
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.39813700318336487
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\0c8c034b00e1400e95703f12df9f40f4.jpg",
+            "bbox": [
+                [
+                    115,
+                    175,
+                    608,
+                    468
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.5422878265380859
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\0d0a11d32fbb4971b0a438620d52a446.jpg",
+            "bbox": [
+                [
+                    42,
+                    208,
+                    429,
+                    516
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.965496838092804
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\1047f4adeca64341bec513217df61cf4.jpg",
+            "bbox": [
+                [
+                    215,
+                    171,
+                    682,
+                    447
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.5541550517082214
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\14c4223bbf5945a99b8fc16c8990e8bb.jpg",
+            "bbox": [
+                [
+                    182,
+                    135,
+                    669,
+                    706
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.4830138385295868
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\160a2b287c79485ead5c2b837b82e235.jpg",
+            "bbox": [
+                [
+                    220,
+                    195,
+                    924,
+                    785
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.4853312373161316
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\17dc82f8e5db4f73ba3de30d05ac744b.jpg",
+            "bbox": [
+                [
+                    285,
+                    291,
+                    460,
+                    486
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.9414594173431396
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\1a3bbfb93333457dbf6724072ad6a8a3.jpg",
+            "bbox": [
+                [
+                    108,
+                    187,
+                    464,
+                    996
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.8549157977104187
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\1a88d8f06a9f48efbb04a07d674657c2.jpg",
+            "bbox": [
+                [
+                    398,
+                    230,
+                    757,
+                    879
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.8464460968971252
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\1f6a57f2772042d29546ca18cd9bf6c5.jpg",
+            "bbox": [
+                [
+                    0,
+                    29,
+                    523,
+                    1024
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.4993824064731598
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\1fec66f25eeb47e0af7b1b715402f97e.jpg",
+            "bbox": [
+                [
+                    46,
+                    38,
+                    239,
+                    309
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.9686378836631775
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\2137ee4be2924e6a953abe4bc21182f1.jpg",
+            "bbox": [
+                [
+                    398,
+                    99,
+                    879,
+                    611
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.8742359280586243
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\23bd7cc560e2425ba0db754375a800fb.jpg",
+            "bbox": [
+                [
+                    203,
+                    99,
+                    631,
+                    560
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.6460230946540833
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\24b2ad2a09c345359264d599ce9627f5.jpg",
+            "bbox": [
+                [
+                    460,
+                    234,
+                    586,
+                    487
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.273360013961792
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\264ea17dad6143fd9c592c27357af896.jpg",
+            "bbox": [
+                [
+                    308,
+                    138,
+                    591,
+                    582
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.6414675712585449
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\2738eb0a032f4b0089da69d1ee2d6e80.jpg",
+            "bbox": [
+                [
+                    270,
+                    126,
+                    719,
+                    582
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.965827465057373
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\2886ab18cc8b420aacc83f65b6e2dd0d.jpg",
+            "bbox": [
+                [
+                    254,
+                    121,
+                    933,
+                    508
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.7649726271629333
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\28a76d4705834be1b831e8a087412b1e.jpg",
+            "bbox": [
+                [
+                    234,
+                    299,
+                    678,
+                    853
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.5746005773544312
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\29b056cb88374eaface846ec38a310ca.jpg",
+            "bbox": [
+                [
+                    25,
+                    173,
+                    381,
+                    522
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.8902198672294617
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\2bcef327dcb543c78bc9f44f4ef8b68b.jpg",
+            "bbox": [
+                [
+                    153,
+                    222,
+                    745,
+                    465
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.8023313283920288
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\2d9ea03e35824c8682bc8fa11233494b.jpg",
+            "bbox": [
+                [
+                    362,
+                    258,
+                    787,
+                    525
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.8754312992095947
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\2df2b434b63849acadb29697b06b1100.jpg",
+            "bbox": [
+                [
+                    112,
+                    150,
+                    713,
+                    516
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.9103480577468872
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\2e7db956b0214df3bc8d4136d17ed2f9.jpg",
+            "bbox": [
+                [
+                    24,
+                    178,
+                    243,
+                    500
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.661433219909668
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\352df875d85f4e23b4f2af55211492e6.jpg",
+            "bbox": [
+                [
+                    380,
+                    113,
+                    821,
+                    556
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.8506804704666138
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\36fbc0eccb99488298b6f4556bd1ad33.jpg",
+            "bbox": [
+                [
+                    136,
+                    353,
+                    416,
+                    583
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.9754027724266052
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\37ed72fec56e4d7f82f480d26a084fb5.jpg",
+            "bbox": [
+                [
+                    44,
+                    71,
+                    536,
+                    437
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.4361749291419983
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\38ee9a68e31541b297824ee90f91d616.jpg",
+            "bbox": [
+                [
+                    367,
+                    254,
+                    740,
+                    572
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.8522889018058777
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\3c35171841704b24a0501bf984523969.jpg",
+            "bbox": [
+                [
+                    294,
+                    230,
+                    465,
+                    346
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.9391362071037292
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\3c81ecabdda142ba905b6c1a12e1cae3.jpg",
+            "bbox": [
+                [
+                    270,
+                    296,
+                    521,
+                    636
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.9612188339233398
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\4046a4c15718405abd7cce4dffbc28d3.jpg",
+            "bbox": [
+                [
+                    281,
+                    230,
+                    692,
+                    750
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.5400245189666748
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\419f7f324ea347f39445141f4ab87577.jpg",
+            "bbox": [
+                [
+                    109,
+                    197,
+                    683,
+                    620
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.9538304209709167
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\41ee7ca984964e0c9ea67533e4f434f4.jpg",
+            "bbox": [
+                [
+                    200,
+                    167,
+                    626,
+                    887
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.8660272359848022
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\443f29de969f4165b79dcc2480b75634.jpg",
+            "bbox": [
+                [
+                    340,
+                    248,
+                    719,
+                    576
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.43189674615859985
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\47bd8d57effb48d4a100a805ab955ae6.jpg",
+            "bbox": [
+                [
+                    284,
+                    302,
+                    499,
+                    536
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.9563937783241272
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\47e47cf96af345359f815064dfda37a2.jpg",
+            "bbox": [
+                [
+                    3,
+                    65,
+                    782,
+                    687
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.30823299288749695
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\48514cd0b464447fbfdd7ff56d4d818e.jpg",
+            "bbox": [
+                [
+                    489,
+                    307,
+                    662,
+                    601
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.9502165913581848
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\492c150f3a124771b5ca3628396397b5.jpg",
+            "bbox": [
+                [
+                    577,
+                    250,
+                    762,
+                    683
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.9676867723464966
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\495b32277bdf4e28a3a46e2fa0ac3469.jpg",
+            "bbox": [
+                [
+                    86,
+                    303,
+                    471,
+                    830
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.877135157585144
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\49f04579ee714d96a99424391958a773.jpg",
+            "bbox": [
+                [
+                    336,
+                    253,
+                    784,
+                    950
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.6134604811668396
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\4aa0b99397e14ac39a641b1c8e1faa1a.jpg",
+            "bbox": [
+                [
+                    331,
+                    180,
+                    556,
+                    443
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.9670082926750183
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\4c37e944d0e4418798e81e05abac145a.jpg",
+            "bbox": [
+                [
+                    107,
+                    324,
+                    575,
+                    726
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.9436636567115784
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\4e6efd3b043641b6b238cb5c0b7ba2df.jpg",
+            "bbox": [
+                [
+                    582,
+                    88,
+                    1015,
+                    929
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.2953812777996063
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\4f894d8e108840a3b793a6609ea5b516.jpg",
+            "bbox": [
+                [
+                    0,
+                    98,
+                    791,
+                    614
+                ]
+            ],
+            "category": [
+                1
+            ],
+            "confidence": [
+                0.4959779977798462
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\508ed6da558b4103ab7f12ee7f72e1c8.jpg",
+            "bbox": [
+                [
+                    240,
+                    134,
+                    531,
+                    608
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.9175394177436829
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\5107f6779b3f4391800b0a3f65a4fa1b.jpg",
+            "bbox": [
+                [
+                    166,
+                    111,
+                    455,
+                    316
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.53281170129776
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\521686333c244c079230beb74f01b77d.jpg",
+            "bbox": [
+                [
+                    429,
+                    12,
+                    1024,
+                    681
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.25145038962364197
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\559923d3ba9744b58c3c88dd93870ea9.jpg",
+            "bbox": [
+                [
+                    265,
+                    154,
+                    460,
+                    572
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.7519604563713074
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\55f4c321c0f144a1a05fa2074fc11b5d.jpg",
+            "bbox": [
+                [
+                    35,
+                    222,
+                    763,
+                    517
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.7352110743522644
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\59f162aa69674136b8940c5ba4bc84b2.jpg",
+            "bbox": [
+                [
+                    86,
+                    89,
+                    820,
+                    680
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.9239279627799988
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\5c6ddf0f7131465bbbdbbd7471cac232.jpg",
+            "bbox": [
+                [
+                    387,
+                    75,
+                    709,
+                    566
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.9491873979568481
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\5ff36e82c5b14a179566f38e20f52946.jpg",
+            "bbox": [
+                [
+                    217,
+                    147,
+                    728,
+                    453
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.8882306218147278
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\600df098d717498591c7c6a72cac3f0c.jpg",
+            "bbox": [
+                [
+                    159,
+                    89,
+                    523,
+                    958
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.7198327779769897
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\6410ea39f8d44243b1789d1cc097daa3.jpg",
+            "bbox": [
+                [
+                    546,
+                    215,
+                    808,
+                    754
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.9289400577545166
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\67e39d11137f42308d93eadc832cd875.jpg",
+            "bbox": [
+                [
+                    266,
+                    156,
+                    665,
+                    408
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.9484766721725464
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\6913ad5ee9d2472cb365dec23c8b3837.jpg",
+            "bbox": [
+                [
+                    17,
+                    195,
+                    560,
+                    800
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.9608746767044067
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\6b45cfecafe74677822b811e8258cf06.jpg",
+            "bbox": [
+                [
+                    470,
+                    118,
+                    958,
+                    483
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.3627709746360779
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\6ec92e139f654bc99dba30ad5b71edc6.jpg",
+            "bbox": [
+                [
+                    171,
+                    349,
+                    774,
+                    807
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.9739283323287964
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\6edd9ab9952f4497931a44625b37b78f.jpg",
+            "bbox": [
+                [
+                    381,
+                    193,
+                    882,
+                    536
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.972923219203949
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\6f5ba1325700458e9009718372cdeca5.jpg",
+            "bbox": [
+                [
+                    372,
+                    156,
+                    917,
+                    683
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.40417423844337463
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\71254ca7b5d348fea3ed4f2eff2150aa.jpg",
+            "bbox": [
+                [
+                    100,
+                    121,
+                    664,
+                    679
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.9185285568237305
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\712faf81f88d47a28931fff321f99e57.jpg",
+            "bbox": [
+                [
+                    20,
+                    142,
+                    720,
+                    649
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.26527488231658936
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\7164a4714dad4ec98107512b39fac6f1.jpg",
+            "bbox": [
+                [
+                    344,
+                    282,
+                    637,
+                    454
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.9209846258163452
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\7750a01869934c52960384bc29a816b8.jpg",
+            "bbox": [
+                [
+                    383,
+                    135,
+                    618,
+                    616
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.9345483183860779
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\7b375b625af44f0d8631f23b672ef71f.jpg",
+            "bbox": [
+                [
+                    198,
+                    231,
+                    730,
+                    853
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.7813563942909241
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\7b652c3d5695428296429b6f2e740d92.jpg",
+            "bbox": [
+                [
+                    293,
+                    89,
+                    608,
+                    280
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.9584335088729858
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\7b6ada6f6b1448ecb48bd57702469501.jpg",
+            "bbox": [
+                [
+                    198,
+                    250,
+                    522,
+                    510
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.9497785568237305
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\88c2f5404aa84423bfcafb28d6bcc831.jpg",
+            "bbox": [
+                [
+                    250,
+                    229,
+                    492,
+                    674
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.6874380707740784
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\8ad6e93687ad4e51bbf3800b38960926.jpg",
+            "bbox": [
+                [
+                    19,
+                    16,
+                    1011,
+                    432
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.5639913082122803
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\8f4ceba4403348fd83d96da179c939f9.jpg",
+            "bbox": [
+                [
+                    312,
+                    88,
+                    958,
+                    613
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.9370564222335815
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\915bd12a70a4419c902651f4c9d1cc29.jpg",
+            "bbox": [
+                [
+                    3,
+                    67,
+                    925,
+                    768
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.8118256330490112
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\94883539090b44ee9be529acce9a8878.jpg",
+            "bbox": [
+                [
+                    20,
+                    319,
+                    590,
+                    526
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.447668194770813
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\96309d35a537480db154b1867d74da11.jpg",
+            "bbox": [
+                [
+                    348,
+                    207,
+                    825,
+                    528
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.8920655250549316
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\967d5aced5d14c8287f9746e769e4d5d.jpg",
+            "bbox": [
+                [
+                    58,
+                    137,
+                    575,
+                    504
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.9125674366950989
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\987432a29755437da53d30cfeb045705.jpg",
+            "bbox": [
+                [
+                    174,
+                    166,
+                    448,
+                    528
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.8344804644584656
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\996100aa6f99491291319bbf3de2f194.jpg",
+            "bbox": [
+                [
+                    1,
+                    138,
+                    711,
+                    1024
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.3122168183326721
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\99891861eb69461dbd99bc6de02af561.jpg",
+            "bbox": [
+                [
+                    224,
+                    208,
+                    624,
+                    566
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.7637538313865662
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\998a6335dd124d75bd13535286a30614.jpg",
+            "bbox": [
+                [
+                    425,
+                    147,
+                    784,
+                    599
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.8766899108886719
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\9d7a3fdc790c4d9ab49a6a0604f8fc73.jpg",
+            "bbox": [
+                [
+                    285,
+                    0,
+                    919,
+                    682
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.7591995596885681
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\9e3d4f33a03149b2a588091f112ea8d1.jpg",
+            "bbox": [
+                [
+                    186,
+                    200,
+                    574,
+                    547
+                ],
+                [
+                    841,
+                    541,
+                    1010,
+                    642
+                ]
+            ],
+            "category": [
+                0,
+                1
+            ],
+            "confidence": [
+                0.9805945158004761,
+                0.47717422246932983
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\9ea207b87f84415eabedef39c36f3b46.jpg",
+            "bbox": [
+                [
+                    339,
+                    100,
+                    999,
+                    728
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.5448265075683594
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\9faf9e9b7a6e454f8b9b788b89d584f7.jpg",
+            "bbox": [
+                [
+                    362,
+                    194,
+                    617,
+                    552
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.9775210022926331
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\Common_Yellowthroat_0011_190401.jpg",
+            "bbox": [
+                [
+                    61,
+                    51,
+                    243,
+                    412
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.9253270626068115
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\Common_Yellowthroat_0018_190904.jpg",
+            "bbox": [
+                [
+                    1,
+                    117,
+                    316,
+                    238
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.39412128925323486
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\Common_Yellowthroat_0019_190524.jpg",
+            "bbox": [
+                [
+                    218,
+                    125,
+                    340,
+                    331
+                ]
+            ],
+            "category": [
+                1
+            ],
+            "confidence": [
+                0.7923247218132019
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\Common_Yellowthroat_0021_190655.jpg",
+            "bbox": [
+                [
+                    170,
+                    109,
+                    412,
+                    252
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.9260029792785645
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\Common_Yellowthroat_0025_190547.jpg",
+            "bbox": [
+                [
+                    167,
+                    0,
+                    500,
+                    374
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.5811128616333008
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\Common_Yellowthroat_0027_190869.jpg",
+            "bbox": [
+                [
+                    203,
+                    139,
+                    404,
+                    291
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.8346330523490906
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\Common_Yellowthroat_0029_190403.jpg",
+            "bbox": [
+                [
+                    63,
+                    85,
+                    342,
+                    247
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.7733330130577087
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\Common_Yellowthroat_0031_190582.jpg",
+            "bbox": [
+                [
+                    277,
+                    96,
+                    394,
+                    264
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.32066476345062256
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\Common_Yellowthroat_0039_190513.jpg",
+            "bbox": [
+                [
+                    117,
+                    104,
+                    455,
+                    308
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.40287262201309204
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\Common_Yellowthroat_0040_190427.jpg",
+            "bbox": [
+                [
+                    13,
+                    115,
+                    309,
+                    388
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.6903066635131836
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\Common_Yellowthroat_0045_190563.jpg",
+            "bbox": [
+                [
+                    133,
+                    68,
+                    404,
+                    331
+                ],
+                [
+                    0,
+                    1,
+                    263,
+                    332
+                ]
+            ],
+            "category": [
+                0,
+                0
+            ],
+            "confidence": [
+                0.738508403301239,
+                0.4256003201007843
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\Common_Yellowthroat_0050_190535.jpg",
+            "bbox": [
+                [
+                    142,
+                    76,
+                    497,
+                    413
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.45446738600730896
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\Common_Yellowthroat_0055_190967.jpg",
+            "bbox": [
+                [
+                    21,
+                    112,
+                    198,
+                    365
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.8153904676437378
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\Common_Yellowthroat_0058_190958.jpg",
+            "bbox": [
+                [
+                    158,
+                    65,
+                    344,
+                    280
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.9447113871574402
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\Common_Yellowthroat_0063_190440.jpg",
+            "bbox": [
+                [
+                    92,
+                    70,
+                    340,
+                    288
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.8081433773040771
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\Common_Yellowthroat_0066_190646.jpg",
+            "bbox": [
+                [
+                    192,
+                    66,
+                    411,
+                    250
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.9446367621421814
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\Common_Yellowthroat_0070_190678.jpg",
+            "bbox": [
+                [
+                    1,
+                    41,
+                    345,
+                    499
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.34980860352516174
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\Common_Yellowthroat_0071_190665.jpg",
+            "bbox": [
+                [
+                    122,
+                    168,
+                    374,
+                    316
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.8671838641166687
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\Common_Yellowthroat_0086_190639.jpg",
+            "bbox": [
+                [
+                    39,
+                    69,
+                    281,
+                    268
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.9689643383026123
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\Common_Yellowthroat_0099_190531.jpg",
+            "bbox": [
+                [
+                    248,
+                    134,
+                    427,
+                    226
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.6627727746963501
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\Common_Yellowthroat_0111_190569.jpg",
+            "bbox": [
+                [
+                    112,
+                    13,
+                    495,
+                    301
+                ]
+            ],
+            "category": [
+                2
+            ],
+            "confidence": [
+                0.27776071429252625
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\Common_Yellowthroat_0112_190571.jpg",
+            "bbox": [
+                [
+                    98,
+                    0,
+                    500,
+                    380
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.41144606471061707
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\Common_Yellowthroat_0118_190805.jpg",
+            "bbox": [
+                [
+                    69,
+                    94,
+                    275,
+                    263
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.91559237241745
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\Common_Yellowthroat_0125_190902.jpg",
+            "bbox": [
+                [
+                    60,
+                    104,
+                    340,
+                    334
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.46098750829696655
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\Winter_Wren_0003_189838.jpg",
+            "bbox": [
+                [
+                    75,
+                    108,
+                    273,
+                    304
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.9604783654212952
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\Winter_Wren_0004_189670.jpg",
+            "bbox": [
+                [
+                    230,
+                    79,
+                    499,
+                    332
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.7345085740089417
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\Winter_Wren_0013_189500.jpg",
+            "bbox": [
+                [
+                    283,
+                    94,
+                    466,
+                    233
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.9307194948196411
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\Winter_Wren_0019_189533.jpg",
+            "bbox": [
+                [
+                    155,
+                    77,
+                    436,
+                    311
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.891983687877655
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\Winter_Wren_0021_189597.jpg",
+            "bbox": [
+                [
+                    102,
+                    79,
+                    394,
+                    229
+                ],
+                [
+                    246,
+                    1,
+                    500,
+                    201
+                ]
+            ],
+            "category": [
+                0,
+                0
+            ],
+            "confidence": [
+                0.7448061108589172,
+                0.48441752791404724
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\Winter_Wren_0038_189510.jpg",
+            "bbox": [
+                [
+                    207,
+                    71,
+                    471,
+                    306
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.7972206473350525
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\Winter_Wren_0050_189514.jpg",
+            "bbox": [
+                [
+                    206,
+                    69,
+                    456,
+                    240
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.4471540153026581
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\Winter_Wren_0056_189508.jpg",
+            "bbox": [
+                [
+                    254,
+                    113,
+                    412,
+                    264
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.96685391664505
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\Winter_Wren_0062_189501.jpg",
+            "bbox": [
+                [
+                    165,
+                    1,
+                    499,
+                    333
+                ],
+                [
+                    0,
+                    1,
+                    367,
+                    333
+                ]
+            ],
+            "category": [
+                0,
+                0
+            ],
+            "confidence": [
+                0.4483492076396942,
+                0.3256208896636963
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\Winter_Wren_0063_189543.jpg",
+            "bbox": [
+                [
+                    294,
+                    90,
+                    412,
+                    184
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.9031090140342712
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\Winter_Wren_0071_189689.jpg",
+            "bbox": [
+                [
+                    269,
+                    71,
+                    442,
+                    267
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.9715487360954285
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\Winter_Wren_0073_190044.jpg",
+            "bbox": [
+                [
+                    100,
+                    22,
+                    361,
+                    332
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.5075632333755493
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\Winter_Wren_0082_189549.jpg",
+            "bbox": [
+                [
+                    100,
+                    112,
+                    427,
+                    271
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.42914843559265137
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\Winter_Wren_0083_190025.jpg",
+            "bbox": [
+                [
+                    150,
+                    123,
+                    399,
+                    252
+                ]
+            ],
+            "category": [
+                1
+            ],
+            "confidence": [
+                0.2970280945301056
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\Winter_Wren_0086_189692.jpg",
+            "bbox": [
+                [
+                    70,
+                    37,
+                    427,
+                    258
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.5921823382377625
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\Winter_Wren_0090_190104.jpg",
+            "bbox": [
+                [
+                    188,
+                    70,
+                    406,
+                    265
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.9458200335502625
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\Winter_Wren_0093_189686.jpg",
+            "bbox": [
+                [
+                    137,
+                    54,
+                    471,
+                    329
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.3378125727176666
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\Winter_Wren_0097_190139.jpg",
+            "bbox": [
+                [
+                    137,
+                    83,
+                    355,
+                    341
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.5047383904457092
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\Winter_Wren_0102_189563.jpg",
+            "bbox": [
+                [
+                    132,
+                    125,
+                    246,
+                    246
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.9732073545455933
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\Winter_Wren_0111_189596.jpg",
+            "bbox": [
+                [
+                    199,
+                    64,
+                    432,
+                    273
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.4853416085243225
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\Winter_Wren_0112_189507.jpg",
+            "bbox": [
+                [
+                    75,
+                    80,
+                    350,
+                    343
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.617152750492096
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\Winter_Wren_0122_189475.jpg",
+            "bbox": [
+                [
+                    254,
+                    178,
+                    500,
+                    321
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.8875795602798462
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\Winter_Wren_0127_190091.jpg",
+            "bbox": [
+                [
+                    227,
+                    86,
+                    454,
+                    297
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.9272226095199585
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\Winter_Wren_0132_189861.jpg",
+            "bbox": [
+                [
+                    128,
+                    0,
+                    500,
+                    329
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.582103431224823
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\Winter_Wren_0141_190152.jpg",
+            "bbox": [
+                [
+                    140,
+                    122,
+                    424,
+                    327
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.4310324192047119
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\Winter_Wren_0142_190379.jpg",
+            "bbox": [
+                [
+                    190,
+                    105,
+                    331,
+                    229
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.953842043876648
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\a112e307428647ec87d6f2532967af13.jpg",
+            "bbox": [
+                [
+                    329,
+                    232,
+                    574,
+                    523
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.8348202705383301
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\a26be7713c5d43ccad6133d284dd22bf.jpg",
+            "bbox": [
+                [
+                    574,
+                    210,
+                    849,
+                    472
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.9635257124900818
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\a3221e4806a548c985741f0d5309c87f.jpg",
+            "bbox": [
+                [
+                    482,
+                    147,
+                    835,
+                    481
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.8526189923286438
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\a44b9850605e4d7aabaee23a40dab1e2.jpg",
+            "bbox": [
+                [
+                    104,
+                    339,
+                    633,
+                    686
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.849274754524231
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\a5795841711342d8bc8a252b2b173d27.jpg",
+            "bbox": [
+                [
+                    33,
+                    301,
+                    407,
+                    813
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.5565452575683594
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\ab21f0746b1e4755bc900571feddf8b8.jpg",
+            "bbox": [
+                [
+                    360,
+                    260,
+                    717,
+                    590
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.9233889579772949
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\ad94d95e6e1e47459b385d5f325afb69.jpg",
+            "bbox": [
+                [
+                    133,
+                    124,
+                    653,
+                    748
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.44186311960220337
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\aebd5201d7b94b63ba00553fc087aafd.jpg",
+            "bbox": [
+                [
+                    0,
+                    150,
+                    486,
+                    680
+                ]
+            ],
+            "category": [
+                2
+            ],
+            "confidence": [
+                0.3058468997478485
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\b28ef63ec9a94c4fb10b3739642353ae.jpg",
+            "bbox": [
+                [
+                    57,
+                    201,
+                    534,
+                    620
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.978408932685852
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\b48c40cb230246b9bb098c9d7ce6a02c.jpg",
+            "bbox": [
+                [
+                    114,
+                    192,
+                    528,
+                    848
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.8301418423652649
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\b67eb7b7b9d84560a2887299056ee145.jpg",
+            "bbox": [
+                [
+                    211,
+                    167,
+                    492,
+                    727
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.7568727135658264
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\b7331fe411dc497d9ff4ac6ecfde5450.jpg",
+            "bbox": [
+                [
+                    261,
+                    353,
+                    749,
+                    571
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.9033041000366211
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\b9c34420f1804cb6bcc90005f83d1cfc.jpg",
+            "bbox": [
+                [
+                    3,
+                    209,
+                    642,
+                    803
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.7240839600563049
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\baf51748bfc8489fb0eb165db3b2c1c8.jpg",
+            "bbox": [
+                [
+                    120,
+                    280,
+                    501,
+                    495
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.5745079517364502
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\bb3ac134a247464bab65650cfc5e5c3d.jpg",
+            "bbox": [
+                [
+                    1,
+                    29,
+                    645,
+                    1024
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.8621205687522888
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\bbb7bdc3a09c4adfa1db07e898dd786b.jpg",
+            "bbox": [
+                [
+                    5,
+                    200,
+                    332,
+                    430
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.7498184442520142
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\bcf06636abce45abb0b0b3f52fecb8ef.jpg",
+            "bbox": [
+                [
+                    122,
+                    184,
+                    1011,
+                    788
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.8688281774520874
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\c0224442c08f4967b13a73dbac044246.jpg",
+            "bbox": [
+                [
+                    370,
+                    245,
+                    621,
+                    532
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.9536310434341431
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\c335577c33594bc48e0236559fd1873a.jpg",
+            "bbox": [
+                [
+                    107,
+                    201,
+                    736,
+                    470
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.9240999817848206
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\c44d4aa9e8c04420a7734a96a17c9ae9.jpg",
+            "bbox": [
+                [
+                    159,
+                    127,
+                    701,
+                    593
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.3473820090293884
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\c798a8b5239145aabdd6903a2699c659.jpg",
+            "bbox": [
+                [
+                    392,
+                    187,
+                    547,
+                    448
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.9357922673225403
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\ca311d185bcc4a21b59efbb9405e88e2.jpg",
+            "bbox": [
+                [
+                    172,
+                    117,
+                    452,
+                    701
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.9469077587127686
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\cc260c0798bf4bfc9ff3d205e09f2133.jpg",
+            "bbox": [
+                [
+                    120,
+                    243,
+                    598,
+                    753
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.27102386951446533
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\cf7e3adb819d4d4ba4232703db18d872.jpg",
+            "bbox": [
+                [
+                    1,
+                    258,
+                    483,
+                    430
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.8831896185874939
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\cf92de5013084524ac9d2669ae21261f.jpg",
+            "bbox": [
+                [
+                    194,
+                    146,
+                    529,
+                    539
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.7308066487312317
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\cfe987e9b6654ee6a8ee0e24281454d1.jpg",
+            "bbox": [
+                [
+                    26,
+                    86,
+                    511,
+                    507
+                ],
+                [
+                    52,
+                    68,
+                    552,
+                    498
+                ]
+            ],
+            "category": [
+                0,
+                1
+            ],
+            "confidence": [
+                0.40451669692993164,
+                0.24695846438407898
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\d102e4375d504f4baf5ce20e2ab15ed5.jpg",
+            "bbox": [
+                [
+                    380,
+                    299,
+                    933,
+                    749
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.8177238702774048
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\d5474ed6448f416f8cfd95afb4719ca2.jpg",
+            "bbox": [
+                [
+                    203,
+                    40,
+                    620,
+                    727
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.8569605946540833
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\d913d8763a34415390bb355ec18692db.jpg",
+            "bbox": [
+                [
+                    62,
+                    46,
+                    540,
+                    420
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.4570961594581604
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\d99063c3f4c74c8cbc6f472115042115.jpg",
+            "bbox": [
+                [
+                    292,
+                    256,
+                    647,
+                    629
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.872955858707428
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\d9946e95c71a4c2cb8cc4a2b88ac2849.jpg",
+            "bbox": [
+                [
+                    328,
+                    201,
+                    990,
+                    714
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.8586193919181824
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\d99d1f38e6274808a344ea3772cbc50e.jpg",
+            "bbox": [
+                [
+                    289,
+                    191,
+                    691,
+                    394
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.9259845614433289
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\de7c17389d954753a484c37118d2f935.jpg",
+            "bbox": [
+                [
+                    217,
+                    166,
+                    437,
+                    460
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.9467466473579407
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\e00d129b68d143d5ba60bd02db0b545d.jpg",
+            "bbox": [
+                [
+                    326,
+                    130,
+                    643,
+                    662
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.9522196650505066
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\e1c09f23f4cc4ca781508d4bba3e2435.jpg",
+            "bbox": [
+                [
+                    318,
+                    216,
+                    673,
+                    753
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.9220033884048462
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\e4373b0aff6e4b8f846bea6dc7ccb40d.jpg",
+            "bbox": [
+                [
+                    33,
+                    239,
+                    380,
+                    595
+                ]
+            ],
+            "category": [
+                1
+            ],
+            "confidence": [
+                0.6214032769203186
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\e9731c437d1c4356a0ba741d7cc15f71.jpg",
+            "bbox": [
+                [
+                    92,
+                    82,
+                    429,
+                    368
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.38145115971565247
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\e9da3393166b407c89822c24cd273f21.jpg",
+            "bbox": [
+                [
+                    158,
+                    112,
+                    689,
+                    371
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.4788532257080078
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\e9ff47322a2f44c488426b7e41a08bc5.jpg",
+            "bbox": [
+                [
+                    126,
+                    225,
+                    580,
+                    733
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.9403149485588074
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\eb7bcd1452a6444bbe817ba502190317.jpg",
+            "bbox": [
+                [
+                    81,
+                    142,
+                    792,
+                    679
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.9281782507896423
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\ee15688958d249ce925d7eb948992fe8.jpg",
+            "bbox": [
+                [
+                    125,
+                    1,
+                    1024,
+                    630
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.4192577600479126
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\f09645998d2f4a5796d0f43e85c30c50.jpg",
+            "bbox": [
+                [
+                    109,
+                    203,
+                    666,
+                    397
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.48045000433921814
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\f10d13ea211949bd8b3d9d484d8e4779.jpg",
+            "bbox": [
+                [
+                    350,
+                    92,
+                    976,
+                    615
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.8325160145759583
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\f5225ade62ab4d4390fb963704777c68.jpg",
+            "bbox": [
+                [
+                    517,
+                    117,
+                    866,
+                    488
+                ]
+            ],
+            "category": [
+                1
+            ],
+            "confidence": [
+                0.6970850229263306
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\f668850c53e24ae8a3d1db53a1abe15f.jpg",
+            "bbox": [
+                [
+                    361,
+                    134,
+                    1020,
+                    669
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.38407206535339355
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\f7d1064628544904b40b4a0f15e4e99d.jpg",
+            "bbox": [
+                [
+                    48,
+                    166,
+                    495,
+                    624
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.9717099070549011
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\f9f45ec7a7324422b9dc57bf56e7bf0c.jpg",
+            "bbox": [
+                [
+                    237,
+                    110,
+                    500,
+                    284
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.8305626511573792
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\fcd4b2100b5a4fd6a39457894b7bcc14.jpg",
+            "bbox": [
+                [
+                    15,
+                    213,
+                    424,
+                    709
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.9855311512947083
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\fe3424fc797b4a7b8a524d0359a2bc5e.jpg",
+            "bbox": [
+                [
+                    223,
+                    152,
+                    480,
+                    509
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.9761810898780823
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\bird_images\\ffde854c059145489d3170f6c2ebf95a.jpg",
+            "bbox": [
+                [
+                    396,
+                    141,
+                    752,
+                    715
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.979456901550293
+            ]
+        }
+    ],
+    "categories": {
+        "0": "animal",
+        "1": "person",
+        "2": "vehicle"
+    }
+}

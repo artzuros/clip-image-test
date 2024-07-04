@@ -1,0 +1,255 @@
+{
+    "annotations": [
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\croc_poro\\ind_sund_03_2014_002_P019_88774583_21811083_C010A_03_04_2014_00_07_00_P_11.jpg",
+            "bbox": [
+                [
+                    546,
+                    1091,
+                    2331,
+                    1749
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.7314890623092651
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\croc_poro\\ind_sund_03_2014_002_P019_88774583_21811083_C010A_03_04_2014_00_07_00_P_9.jpg",
+            "bbox": [
+                [
+                    337,
+                    1149,
+                    1388,
+                    1555
+                ],
+                [
+                    135,
+                    1273,
+                    912,
+                    1597
+                ]
+            ],
+            "category": [
+                0,
+                0
+            ],
+            "confidence": [
+                0.6536740064620972,
+                0.5235058069229126
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\croc_poro\\ind_sund_03_2014_002_P019_88774583_21811083_C010A_14_04_2014_07_36_00_P_27.jpg",
+            "bbox": [
+                [
+                    0,
+                    634,
+                    1591,
+                    1749
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.9683959484100342
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\croc_poro\\ind_sund_03_2014_002_P019_88774583_21811083_C010A_14_04_2014_07_36_00_P_28.jpg",
+            "bbox": [
+                [
+                    1,
+                    656,
+                    1441,
+                    1749
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.9769185781478882
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\croc_poro\\ind_sund_03_2014_002_P019_88774583_21811083_C010A_14_04_2014_07_36_00_P_29.jpg",
+            "bbox": [
+                [
+                    1,
+                    1126,
+                    1570,
+                    1752
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.9225648045539856
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\croc_poro\\ind_sund_03_2014_002_P019_88774583_21811083_C010A_14_04_2014_07_38_00_P_30.jpg",
+            "bbox": [
+                [
+                    3,
+                    912,
+                    1573,
+                    1750
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.9549893140792847
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\croc_poro\\ind_sund_03_2014_002_P019_88774583_21811083_C010A_14_04_2014_07_38_00_P_31.jpg",
+            "bbox": [
+                [
+                    2,
+                    778,
+                    1558,
+                    1750
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.9217315912246704
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\croc_poro\\ind_sund_03_2014_002_P019_88774583_21811083_C010A_14_04_2014_07_38_00_P_32.jpg",
+            "bbox": [
+                [
+                    2,
+                    978,
+                    1504,
+                    1751
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.915392279624939
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\croc_poro\\ind_sund_03_2014_002_P019_88774583_21811083_C010A_14_04_2014_07_39_00_P_33.jpg",
+            "bbox": [
+                [
+                    3,
+                    824,
+                    2132,
+                    1750
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.9336337447166443
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\croc_poro\\ind_sund_03_2014_002_P019_88774583_21811083_C010A_14_04_2014_07_39_00_P_34.jpg",
+            "bbox": [
+                [
+                    0,
+                    907,
+                    1433,
+                    1751
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.9699204564094543
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\croc_poro\\ind_sund_03_2014_002_P019_88774583_21811083_C010A_14_04_2014_07_39_00_P_35.jpg",
+            "bbox": [
+                [
+                    1,
+                    1107,
+                    1580,
+                    1751
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.8268330097198486
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\croc_poro\\ind_sund_03_2014_002_P020_88774583_21811083_C010B_14_04_2014_07_38_00_P_1.jpg",
+            "bbox": [
+                [
+                    1548,
+                    1006,
+                    2336,
+                    1479
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.8910447955131531
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\croc_poro\\ind_sund_03_2014_002_P020_88774583_21811083_C010B_14_04_2014_07_38_00_P_2.jpg",
+            "bbox": [
+                [
+                    1706,
+                    1118,
+                    2336,
+                    1475
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.456570565700531
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\croc_poro\\ind_sund_03_2014_002_P020_88774583_21811083_C010B_14_04_2014_07_38_00_P_3.jpg",
+            "bbox": [
+                [
+                    1757,
+                    1114,
+                    2336,
+                    1459
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.7648564577102661
+            ]
+        }
+    ],
+    "categories": {
+        "0": "animal",
+        "1": "person",
+        "2": "vehicle"
+    }
+}

@@ -1,0 +1,322 @@
+{
+    "annotations": [
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\buba_arne\\ind_name_11_2012_001_C035_92815369_26967228_C018A_08_12_2012_17_34_55_P_11.jpg",
+            "bbox": [
+                [
+                    1168,
+                    152,
+                    2591,
+                    1684
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.9741060137748718
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\buba_arne\\ind_name_11_2012_001_C035_92815369_26967228_C018A_08_12_2012_17_38_04_P_14.jpg",
+            "bbox": [
+                [
+                    1247,
+                    303,
+                    2592,
+                    1936
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.983104944229126
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\buba_arne\\ind_name_11_2012_001_C035_92815369_26967228_C018A_08_12_2012_18_05_52_P_15.jpg",
+            "bbox": [
+                [
+                    1393,
+                    271,
+                    2591,
+                    1799
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.9297237992286682
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\buba_arne\\ind_name_11_2012_001_C035_92815369_26967228_C018A_08_12_2012_18_16_37_P_16.jpg",
+            "bbox": [
+                [
+                    697,
+                    331,
+                    1812,
+                    1301
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.9424006938934326
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\buba_arne\\ind_name_11_2012_001_C035_92815369_26967228_C018A_10_11_2012_18_55_53_P_7.jpg",
+            "bbox": [
+                [
+                    1241,
+                    15,
+                    2589,
+                    1568
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.9833613634109497
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\buba_arne\\ind_name_11_2012_001_C036_92815369_26967228_C018B_08_12_2012_09_35_08_P_12.jpg",
+            "bbox": [
+                [
+                    0,
+                    561,
+                    1183,
+                    1381
+                ],
+                [
+                    1197,
+                    623,
+                    2224,
+                    1241
+                ]
+            ],
+            "category": [
+                0,
+                0
+            ],
+            "confidence": [
+                0.980338454246521,
+                0.9473375082015991
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\buba_arne\\ind_name_11_2012_001_C036_92815369_26967228_C018B_08_12_2012_10_03_10_P_13.jpg",
+            "bbox": [
+                [
+                    511,
+                    524,
+                    1710,
+                    1384
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.9759064316749573
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\buba_arne\\ind_name_11_2012_001_C036_92815369_26967228_C018B_08_12_2012_10_04_09_P_14.jpg",
+            "bbox": [
+                [
+                    42,
+                    358,
+                    1628,
+                    1608
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.9788059592247009
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\buba_arne\\ind_name_11_2012_001_C036_92815369_26967228_C018B_08_12_2012_10_13_56_P_15.jpg",
+            "bbox": [
+                [
+                    987,
+                    589,
+                    2525,
+                    1373
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.9724113345146179
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\buba_arne\\ind_name_11_2012_001_C036_92815369_26967228_C018B_10_11_2012_18_55_07_P_7.jpg",
+            "bbox": [
+                [
+                    224,
+                    610,
+                    1260,
+                    1340
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.9398738145828247
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\buba_arne\\ind_name_11_2012_001_C047_92830292_26952642_C024A_10_12_2012_13_16_55_P_79.jpg",
+            "bbox": [
+                [
+                    1,
+                    475,
+                    1197,
+                    1522
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.9694542288780212
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\buba_arne\\ind_name_11_2012_001_C047_92830292_26952642_C024A_10_12_2012_13_17_03_P_80.jpg",
+            "bbox": [
+                [
+                    1,
+                    432,
+                    1745,
+                    1545
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.9791285991668701
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\buba_arne\\ind_name_11_2012_001_C047_92830292_26952642_C024A_10_12_2012_13_17_15_P_81.jpg",
+            "bbox": [
+                [
+                    183,
+                    447,
+                    1913,
+                    1554
+                ],
+                [
+                    1,
+                    495,
+                    504,
+                    1452
+                ]
+            ],
+            "category": [
+                0,
+                0
+            ],
+            "confidence": [
+                0.9073807597160339,
+                0.8280138373374939
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\buba_arne\\ind_name_11_2012_001_C047_92830292_26952642_C024A_10_12_2012_13_17_22_P_82.jpg",
+            "bbox": [
+                [
+                    843,
+                    394,
+                    2591,
+                    1586
+                ],
+                [
+                    0,
+                    552,
+                    231,
+                    977
+                ]
+            ],
+            "category": [
+                0,
+                0
+            ],
+            "confidence": [
+                0.9639772772789001,
+                0.841509997844696
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\buba_arne\\ind_name_11_2012_001_C047_92830292_26952642_C024A_10_12_2012_13_17_37_P_83.jpg",
+            "bbox": [
+                [
+                    0,
+                    472,
+                    1332,
+                    1498
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.9727588295936584
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\buba_arne\\ind_name_11_2012_001_C047_92830292_26952642_C024A_11_11_2012_16_48_32_P_20.jpg",
+            "bbox": [
+                [
+                    2,
+                    452,
+                    1259,
+                    1482
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.9809988737106323
+            ]
+        },
+        {
+            "img_id": "D:\\C_Drive\\Pictures\\IIITD Dataset\\buba_arne\\ind_name_11_2012_001_C048_92830292_26952642_C024B_10_12_2012_13_17_44_P_25.jpg",
+            "bbox": [
+                [
+                    1164,
+                    287,
+                    2591,
+                    1264
+                ]
+            ],
+            "category": [
+                0
+            ],
+            "confidence": [
+                0.9763656258583069
+            ]
+        }
+    ],
+    "categories": {
+        "0": "animal",
+        "1": "person",
+        "2": "vehicle"
+    }
+}
