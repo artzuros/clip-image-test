@@ -1,11 +1,4 @@
-# README
-
-## Prerequisites
-
-Before proceeding with the installation, ensure that you have the following:
-
-- Windows machine
-- Internet connection
+# clip-image-test
 
 ## Installation
 
