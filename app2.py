@@ -32,6 +32,9 @@ if 'selected_images' not in st.session_state:
 if 'query' not in st.session_state:
     st.session_state.query = ""
 
+if 'image' not in st.session_state:
+    st.session_state.image = None
+
 image_folder = st.text_input("Enter the FULL path of the images folder:")
 embeddings_path = os.path.join(image_folder, 'image_embeddings.pkl')
 
