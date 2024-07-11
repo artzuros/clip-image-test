@@ -109,6 +109,21 @@ def get_text_embedding(text):
     text_features /= text_features.norm(dim=-1, keepdim=True)
     return text_features.cpu().numpy()
 
+def get_image_embedding(image):
+    """
+    Returns the CLIP embedding for the given image.
+    Args:
+        image (PIL.Image): The image to get the embedding for.
+        
+    Returns:
+        numpy.ndarray: The CLIP embedding for the given image.
+    """
+    image_input = preprocess(image).unsqueeze(0).to(device)
+    with torch.no_grad():
+        image_features = model.encode_image(image_input)
+    image_features /= image_features.norm(dim=-1, keepdim=True)
+    return image_features.cpu().numpy()
+
 
 def generate_clip_embeddings(image_folder, batch_size=32, n_jobs=-1):
     """

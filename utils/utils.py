@@ -1,6 +1,6 @@
 import streamlit as st
 import datetime, csv, os
-from utils.utils_embedding import get_text_embedding
+from utils.utils_embedding import get_text_embedding, get_image_embedding
 from utils.utils_similarity import compute_similarity
 @st.cache_data
 def load_embeddings_cached(image_folder, embeddings_path):
@@ -25,6 +25,23 @@ def perform_search():
         similarities = compute_similarity(query_embedding, st.session_state.embeddings)
         sorted_similarities = sorted(similarities.items(), key=lambda x: x[1], reverse=True)
         st.session_state.sorted_similarities = sorted_similarities
+
+def perform_search_image():
+    """ Performs the search based on the image and the embeddings.
+    
+    Args:
+        image (PIL.Image): The search image.
+        embeddings (dict): The image embeddings.
+        
+    Returns:
+        dict: A dictionary containing the cosine similarity between the input image and the image embeddings.
+    """
+    if 'image' in st.session_state and st.session_state.image and st.session_state.embeddings:
+        image_embedding = get_image_embedding(st.session_state.image)
+        similarities = compute_similarity(image_embedding, st.session_state.embeddings)
+        sorted_similarities = sorted(similarities.items(), key=lambda x: x[1], reverse=True)
+        st.session_state.sorted_similarities = sorted_similarities
+
 
 def select_image(image_name):
     if image_name not in st.session_state.selected_images:
@@ -59,5 +76,8 @@ def export_to_csv(image_folder):
         writer.writeheader()
         for image_name in st.session_state.selected_images:
             similarity = dict(st.session_state.sorted_similarities).get(image_name, "N/A")
-            writer.writerow({'query': st.session_state.query, 'image_path': os.path.join(image_folder, image_name), 'similarity': similarity})
+            if st.session_state.query:
+                writer.writerow({'query': st.session_state.query, 'image_path': os.path.join(image_folder, image_name), 'similarity': similarity})
+            if st.session_state.image:
+                writer.writerow({'query': st.session_state.image.name, 'image_path': os.path.join(image_folder, image_name), 'similarity': similarity})
     st.success(f"Selected images exported to {csv_filename}")

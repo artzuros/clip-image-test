@@ -5,7 +5,9 @@ import clip
 import pickle
 import os
 from utils.utils_embedding import load_embeddings, generate_clip_embeddings, update_embeddings
-from utils.utils import perform_search, select_image, deselect_image, select_all_images, deselect_all_images, export_to_csv
+from utils.utils import perform_search, select_all_images, deselect_all_images, export_to_csv
+from utils.utils_similarity import compute_similarity_image
+import torchvision.transforms as transforms
 
 device = "cuda" if torch.cuda.is_available() else "cpu"
 model, preprocess = clip.load("ViT-B/32", device=device)
@@ -51,15 +53,30 @@ with col_generate:
             st.success(f"Embeddings generated and saved successfully in {embeddings_path}")
         else:
             st.error("Invalid folder path.")
+# Select between text or image search
+search_type = st.radio("Select search type:", ["Text", "Image"])
+if search_type == "Text":
+    query_input = st.text_input("Enter your search query:", value=st.session_state.query, key="query_input")
 
-query_input = st.text_input("Enter your search query:", value=st.session_state.query, key="query_input")
+    if st.session_state.query != query_input:
+        st.session_state.query = query_input
+        perform_search()
 
-if st.session_state.query != query_input:
-    st.session_state.query = query_input
-    perform_search()
+    if st.button("Search"):
+        perform_search()
 
-if st.button("Search"):
-    perform_search()
+elif search_type == "Image":
+    uploaded_image = st.file_uploader("Upload an image:", type=["jpg", "jpeg", "png"])
+    
+    if uploaded_image is not None:
+        # image = Image.open(uploaded_image)
+        # transform = transforms.ToTensor()
+        # tensor_image = transform(image)
+        # tensor_image = tensor_image.float()  # Convert to float tensor
+        # tensor_image /= 255.0 
+        # st.image(tensor_image, caption="Uploaded Image", use_column_width=True)
+        st.session_state.image = uploaded_image
+        st.session_state.sorted_similarities = compute_similarity_image(st.session_state.image, st.session_state.embeddings)
 
 if st.session_state.sorted_similarities:
     st.write("Top matching images:")
@@ -83,7 +100,7 @@ if st.session_state.sorted_similarities:
     num_columns = 3
     col_width = 200
     cols = st.columns(num_columns)
-    
+    # print(st.session_state.sorted_similarities)
     for idx, (image_name, similarity) in enumerate(st.session_state.sorted_similarities[start_index:end_index]):
         col_idx = idx % num_columns
         with cols[col_idx]:
@@ -112,6 +129,5 @@ if st.session_state.sorted_similarities:
         st.write("Selected images to export:")
         for image_name in st.session_state.selected_images:
             st.write(image_name)
-
         if st.button("Export to CSV"):
             export_to_csv(image_folder)
