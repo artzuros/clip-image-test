@@ -10,6 +10,15 @@ from utils.utils import perform_search, select_image, deselect_image, select_all
 device = "cuda" if torch.cuda.is_available() else "cpu"
 model, preprocess = clip.load("ViT-B/32", device=device)
 
+@st.cache_data
+def load_embeddings_cached(image_folder, embeddings_path):
+    return load_embeddings(image_folder, embeddings_path)
+
+@st.cache_data
+def generate_clip_embeddings_cached(image_folder):
+    return generate_clip_embeddings(image_folder)
+
+
 if 'embeddings' not in st.session_state:
     st.session_state.embeddings = None
 if 'sorted_similarities' not in st.session_state:
@@ -27,7 +36,7 @@ embeddings_path = os.path.join(image_folder, 'image_embeddings.pkl')
 col_load, col_generate = st.columns(2)
 with col_load:
     if st.button("Load Embeddings"):
-        load_embeddings(image_folder, embeddings_path)
+        load_embeddings_cached(image_folder, embeddings_path)
         
 with col_load:
     if st.button("Update Embeddings"):
@@ -36,7 +45,7 @@ with col_load:
 with col_generate:
     if st.button("Generate Embeddings"):
         if os.path.isdir(image_folder):
-            st.session_state.embeddings = generate_clip_embeddings(image_folder)
+            st.session_state.embeddings = generate_clip_embeddings_cached(image_folder)
             with open(embeddings_path, 'wb') as f:
                 pickle.dump(st.session_state.embeddings, f)
             st.success(f"Embeddings generated and saved successfully in {embeddings_path}")
@@ -81,21 +90,28 @@ if st.session_state.sorted_similarities:
             image = Image.open(os.path.join(image_folder, image_name))
             st.image(image, caption=f"Similarity: {similarity:.3f}", use_column_width=True)
             
-            col_select, col_deselect = st.columns(2)
-            with col_select:
-                select_pressed = st.button(f"Select", key=f"select_{image_name}")
-            with col_deselect:
-                deselect_pressed = st.button(f"Deselect", key=f"deselect_{image_name}")
-            
-            if select_pressed:
-                select_image(image_name)
-            elif deselect_pressed:
-                deselect_image(image_name)
-                
-if st.session_state.selected_images:
-    st.write("Selected images to export:")
-    for image_name in st.session_state.selected_images:
-        st.write(image_name)
+            checkbox_key = f"select_{image_name}"
+            checked = st.checkbox("Select", key=checkbox_key, value=image_name in st.session_state.selected_images)
+            if checked:
+                if image_name not in st.session_state.selected_images:
+                    st.session_state.selected_images.append(image_name)
+            else:
+                if image_name in st.session_state.selected_images:
+                    st.session_state.selected_images.remove(image_name)
+    
+    if st.session_state.selected_images:
+        if st.button("Confirm Selection"):
+            for idx, (image_name, similarity) in enumerate(st.session_state.sorted_similarities[start_index:end_index]):
+                checkbox_key = f"select_{image_name}"
+                if st.session_state[checkbox_key] and image_name not in st.session_state.selected_images:
+                    st.session_state.selected_images.append(image_name)
+                elif not st.session_state[checkbox_key] and image_name in st.session_state.selected_images:
+                    st.session_state.selected_images.remove(image_name)
+    
+    if st.session_state.selected_images:
+        st.write("Selected images to export:")
+        for image_name in st.session_state.selected_images:
+            st.write(image_name)
 
-    if st.button("Export to CSV"):
-        export_to_csv(image_folder)
+        if st.button("Export to CSV"):
+            export_to_csv(image_folder)
