@@ -9,14 +9,7 @@ def load_embeddings_cached(image_folder, embeddings_path):
 @st.cache_data
 def generate_clip_embeddings_cached(image_folder):
     return generate_clip_embeddings(image_folder)
-
-def perform_search():
-    """Performs the search based on the query and the embeddings."""
-    if 'query' in st.session_state and st.session_state.query and st.session_state.embeddings:
-        query_embedding = get_text_embedding(st.session_state.query)
-        similarities = compute_similarity(query_embedding, st.session_state.embeddings)
-        sorted_similarities = sorted(similarities.items(), key=lambda x: x[1], reverse=True)
-        st.session_state.sorted_similarities = sorted_similarities
+    
 def perform_search():
     """ Performs the search based on the query and the embeddings.
     
