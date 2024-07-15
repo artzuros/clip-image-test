@@ -2,15 +2,19 @@ import streamlit as st
 import torch
 from PIL import Image
 import clip
+
 import pickle
 import os
 from utils.utils_embedding import load_embeddings, generate_clip_embeddings, update_embeddings
 from utils.utils import perform_search, select_all_images, deselect_all_images, export_to_csv
 from utils.utils_similarity import compute_similarity_image
 import torchvision.transforms as transforms
+from transformers import CLIPModel, AutoProcessor
 
 device = "cuda" if torch.cuda.is_available() else "cpu"
 model, preprocess = clip.load("ViT-B/32", device=device)
+# preprocess = AutoProcessor.from_pretrained("openai/clip-vit-base-patch32")
+# model = CLIPModel.from_pretrained("openai/clip-vit-base-patch32").to(device)
 
 @st.cache_data
 def load_embeddings_cached(image_folder, embeddings_path):
@@ -72,12 +76,6 @@ elif search_type == "Image":
     uploaded_image = st.file_uploader("Upload an image:", type=["jpg", "jpeg", "png"])
     
     if uploaded_image is not None:
-        # image = Image.open(uploaded_image)
-        # transform = transforms.ToTensor()
-        # tensor_image = transform(image)
-        # tensor_image = tensor_image.float()  # Convert to float tensor
-        # tensor_image /= 255.0 
-        # st.image(tensor_image, caption="Uploaded Image", use_column_width=True)
         st.session_state.image = uploaded_image
         st.session_state.sorted_similarities = compute_similarity_image(st.session_state.image, st.session_state.embeddings)
 

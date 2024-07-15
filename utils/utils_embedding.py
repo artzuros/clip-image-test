@@ -5,11 +5,13 @@ import torch
 from PIL import Image
 from joblib import Parallel, delayed
 from tqdm import tqdm
+# from transformers import CLIPModel, AutoProcessor
 
 device = "cuda" if torch.cuda.is_available() else "cpu"
 model, preprocess = clip.load("ViT-B/32", device=device)
 
-
+# preprocess = AutoProcessor.from_pretrained("openai/clip-vit-base-patch32")
+# model = CLIPModel.from_pretrained("openai/clip-vit-base-patch32").to(device)
 
 def process_batch(image_paths):
     """ Processes a batch of images and returns their embeddings.

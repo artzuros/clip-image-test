@@ -3,9 +3,13 @@ import numpy as np
 from PIL import Image
 import torch
 import clip
+# from transformers import CLIPModel, AutoProcessor
 
 device = "cuda" if torch.cuda.is_available() else "cpu"
 model, preprocess = clip.load("ViT-B/32", device=device)
+
+# preprocess = AutoProcessor.from_pretrained("openai/clip-vit-base-patch32")
+# model = CLIPModel.from_pretrained("openai/clip-vit-base-patch32").to(device)
 
 def compute_similarity(query_embedding, image_embeddings):
     """
