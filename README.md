@@ -1,5 +1,12 @@
 # clip-image-test
 
+### TODO
+
+- API (RESTful API)
+  1. Image Folder ZIP Upload
+  2. Images to Embeddings (Session State)
+  3. Query
+
 ## Installation
 
 1. Install CUDA and Torch:
